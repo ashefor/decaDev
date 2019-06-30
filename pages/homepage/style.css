@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates:400,500&display=swap');
+*{
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6{
+    line-height: 1.2em;
+    margin: 0;
+    margin-bottom: .5rem;
+}
+p{
+    margin: 0
+}
+textarea{
+    resize: none
+}
+.nav_menu{
+    display: flex;
+    max-width: 1500px;
+    margin: auto;
+}
+.nav_menu_other{
+    margin-left: auto;
+}
+.nav_menu_other ul{
+    display: flex
+}
+.nav_menu_other li{
+    padding: 20px;
+    list-style: none;
+    font-size: 20px;
+    margin: auto;
+}
+.nav_menu_other li a{
+    text-decoration: none;
+    color: black;
+}
+.nav_menu_links{
+    margin-bottom: auto;
+    margin-top: auto;
+}
+.nav_menu_links ul{
+    display: flex
+}
+.nav_menu_links li{
+    list-style: none;
+    padding: 20px;
+    font-size: 20px;
+    margin: auto
+}
+.nav_menu_links li a{
+    text-decoration: none;
+    color: black
+}
+.rotating img{
+    animation: rotate 2s linear infinite;
+    -webkit-animation: rotate 2s linear infinite;
+}
+@keyframes rotate{
+    100%{
+        transform: rotatey(360deg)
+    }
+}
+.homesection{
+    /* display: flex */
+    height: 100vh;
+}
+.nav_menu_links li a{
+    text-decoration: none;
+    color: black
+}
+.homesection_img{
+    width: 100%;
+}
+/* .homesection_info:before{
+    content: "";
+    position: absolute;
+    width: 200%;
+    height: 200%;
+    top: -50%;
+    left: -50%;
+    z-index: -1;
+    background-image: url('../../assets/img3.jpg');
+    background-repeat: no-repeat;
+    transform: rotate(90deg);
+    background-position: bottom right;
+    background-size: cover;
+    opacity: 0.8;
+
+} */
+.homesection_info{
+    background-image: url('../../assets/img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: left center; */
+    /* opacity: 0.8; */
+
+}
+.homesection_info{
+    height: 100vh;
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+}
+
+.homesection_info{
+    width: 100%
+}
+.homesection_headers{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: 'Montserrat Alternates', sans-serif;
+
+}
+.homesection_headers h1{
+    font-size: 150px;
+    margin: auto;
+}
+.homesection_headers h4{
+    font-size: 30px;
+    margin: auto;
+}
+img{
+    /* max-width: 100%; */
+    vertical-align: middle;
+}
