@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact - Michael Ashefor</title>
+    <link rel="shortcut icon" href="../../assets/fav.ico" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/3cf1bc8abb.js"></script>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+        <div class="homesection">
+                <section>
+                  <div class="homesection_info">
+                    <nav class="nav_menu">
+                      <div class="nav_menu_links">
+                        <li class="rotating">
+                          <a href="../homepage/index.html">
+                            <img src="../../assets/CPT..png" alt="logo" width="50">
+                          </a>
+                        </li>
+                      </div>
+                      <div class="nav_menu_other">
+                          <ul>
+                            <li><a href="../about/about.html" class="navlink">About</a></li>
+                            <li><a href="/projects"  class="navlink">Projects</a></li>
+                            <li><a href="./contact.html"  class="navlink active">Contact</a></li>
+                          </ul>
+                        </div>
+                    </nav>
+                  </div>
+                </section>
+                <section>
+                  <div class="get_in_touch">
+                    <div class="contact_header">
+                      <h4>Get in Touch</h4>
+                      <p>contact me</p>
+                    </div>
+                  </div>
+                  <div class="contact">
+                    <div class="contact_info">
+                      <div>
+                        <h3>
+                          Talk to me
+                        </h3>
+                        <p>
+                          Laborum vel, yet irure or error for incidunt iure suscipit. Eiusmod. Elit. Quisquam illum dolores. Et do,
+                          for dolore for beatae. Eum aliquam so natus quia esse yet consectetur, sunt. Error irure esse incididunt.
+                        </p>
+                      </div>
+                      <div class="social_media">
+                        <h3>
+                          Contact info
+                        </h3>
+                        <p>
+                          <a href="mailto:mashefor@gmail.com">
+                            <i class="far fa-envelope"></i><span>
+                              mashefor@gmail.com
+                            </span>
+                          </a>
+                        </p>
+                        <p>
+                          <i class="fas fa-mobile-alt"></i><span>
+                            08028403095</span>
+                        </p>
+                        <ul>
+                          <li>
+                            <a href="" class="twitter"><i class="fab fa-twitter"></i></a>
+                          </li>
+                          <li>
+                            <a href="" class="instagram"><i class="fab fa-instagram"></i></a>
+                          </li>
+                          <li>
+                            <a href="" class="facebook"><i class="fab fa-facebook-f"></i></a>
+                          </li>
+                          <li>
+                            <a href="" class="linkedin"><i class="fab fa-linkedin-in"></i></a>
+                          </li>
+                          <li>
+                            <a href="" class="github"><i class="fab fa-github"></i></a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div>
+                      <div class="contact_form_container">
+                        <div *ngIf="submitted" class="alert">
+                          <p>Your message has been sent</p>
+                        </div>
+                        <form [formGroup]="contactForm" class="contact_form" method="POST" (ngSubmit)="onSubmit()">
+                          <div>
+                            <input type="text" class="contact_input" placeholder="name" formControlName="name">
+                          </div>
+                          <div>
+                            <input type="email" class="contact_input" placeholder="email" formControlName="email">
+                          </div>
+                          <div>
+                            <textarea formControlName="message" name="message" id="" cols="30" rows="10" class="contact_msg"
+                              placeholder="Type your message here..."></textarea>
+                          </div>
+                          <button type="submit" class="contact_button" [disabled]="contactForm.invalid || disableBtn">Send <span *ngIf="spinner"><img src="../../../assets/spinner.gif" width="25" alt="spinner"></span></button>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+                <footer>
+                  <div class="footer_details">
+                    <p>
+                      Copyright © 2018 <span>Michael Ashefor</span>. All Rights Reserved
+                    </p>
+                  </div>
+                </footer>
+              </div>
+</body>
+</html>
