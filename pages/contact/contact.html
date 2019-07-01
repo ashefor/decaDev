@@ -7,6 +7,7 @@
     <title>Contact - Michael Ashefor</title>
     <link rel="shortcut icon" href="../../assets/fav.ico" type="image/x-icon">
     <script src="https://kit.fontawesome.com/3cf1bc8abb.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
     <link rel="stylesheet" href="contact.css">
 </head>
 <body>
@@ -32,14 +33,14 @@
                   </div>
                 </section>
                 <section>
-                  <div class="get_in_touch">
+                  <div class="animated fadeInDown get_in_touch">
                     <div class="contact_header">
                       <h4>Get in Touch</h4>
                       <p>contact me</p>
                     </div>
                   </div>
                   <div class="contact">
-                    <div class="contact_info">
+                    <div class="animated fadeInUp contact_info">
                       <div>
                         <h3>
                           Talk to me
@@ -84,10 +85,10 @@
                       </div>
                     </div>
                     <div>
-                      <div class="contact_form_container">
-                        <div *ngIf="submitted" class="alert">
+                      <div class="animated fadeInUp contact_form_container">
+                        <!-- <div *ngIf="submitted" class="alert">
                           <p>Your message has been sent</p>
-                        </div>
+                        </div> -->
                         <form [formGroup]="contactForm" class="contact_form" method="POST" (ngSubmit)="onSubmit()">
                           <div>
                             <input type="text" class="contact_input" placeholder="name" formControlName="name">

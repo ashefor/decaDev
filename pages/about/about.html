@@ -8,7 +8,10 @@
     <title>About - Michael Ashefor</title>
     <link rel="shortcut icon" href="../../assets/fav.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="stylesheet"
+        href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
     <link rel="stylesheet" href="about.css">
+    <script src="./about.js"></script>
 </head>
 
 <body>
@@ -35,20 +38,20 @@
             </div>
         </section>
         <section>
-            <section class="part_about_imfo">
+            <div class="animated fadeInDown about_me">
+                <div class="about_me_header">
+                    <h4>about me</h4>
+                    <p>who am i</p>
+                </div>
+            </div>
+            <div class="part_about_imfo">
                 <div class="part_abt_img">
                     <!-- <div>
             <img src="../../assets/Ashefor.jpeg" alt="Michael Ashefor">
           </div> -->
                 </div>
                 <div class="about_me_wrapper">
-                    <div class="about_me">
-                        <div class="about_me_header">
-                            <h4>about me</h4>
-                            <p>who am i</p>
-                        </div>
-                    </div>
-                    <div class="about_details">
+                    <div class="animated fadeInUp about_details">
                         <p>
                             I am a Frontend Developer who believes strongly in responsve and good user experience and
                             finding ways to enhance such experience
@@ -68,8 +71,9 @@
                             Resume</a>
                     </div>
                 </div>
-            </section>
+            </div>
         </section>
+
         <section id="experience">
             <div class="experience_training">
                 <div class="education">
@@ -78,7 +82,7 @@
                         <div class="info">
                             <div class="animated fadeInUp dark_bg work_exp">
                                 <h3>University of lagos</h3>
-                                
+
                                 <div class="duration">
                                     September 2012 - September 2017
                                 </div>
@@ -86,7 +90,7 @@
                             </div>
                             <div class="animated fadeInUp dark_bg work_exp">
                                 <h3>University of lagos</h3>
-                                
+
                                 <div class="duration">
                                     September 2012 - September 2017
                                 </div>
@@ -160,7 +164,58 @@
                 </div>
             </div>
         </section>
-        <footer>
+        <section id="skills">
+            <div class="both_skills">
+                <div class="animated fadeInUp tech_skills">
+                    <h2>
+                        Technical Skills
+                    </h2>
+                    <div>
+                        <div class="techie">
+                            <div>
+                                <i id="html" class="devicon-html5-plain colored"></i>
+                                <p class="icon_title">HTML</p>
+                            </div>
+                            <div>
+                                <i id="css" class="devicon-css3-plain colored"></i>
+                                <p class="icon_title">CSS</p>
+                            </div>
+                            <div>
+                                <i id="java" class="devicon-javascript-plain colored"></i>
+                                <p id="js_title" class="icon_title">Javascript</p>
+                            </div>
+                            <div>
+                                <i id="bootstrap" class="devicon-bootstrap-plain colored"></i>
+                                <p class="icon_title">Bootstrap</p>
+                            </div>
+                            <div>
+                                <i id="github" class="devicon-github-plain colored"></i>
+                                <p class="icon_title">Github</p>
+                            </div>
+                            <div class="ang">
+                                <i id="angular" class="devicon-angularjs-plain colored"></i>
+                                <p id="title" class="icon_title">Angular</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="animated fadeInUp person_skills">
+                    <h2>
+                        Professional Skills
+                    </h2>
+                    <div>
+                        <div class="prof_skills">
+                            <ul>
+                                <li>Communication</li>
+                                <li>Teamwork</li>
+                                <li>creativity</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="animated fadeInUp">
             <div class="footer_details">
                 <p>
                     Copyright © 2018 <span>Michael Ashefor</span>. All Rights Reserved
