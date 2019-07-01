@@ -1,4 +1,5 @@
-window.onload = function () {
+window.addEventListener('load', function () {
+    document.getElementById('loading').style.display = "none"
     let ang = document.getElementById('angular')
     let jS = document.getElementById('java')
     let css = document.getElementById('css')
@@ -52,8 +53,4 @@ window.onload = function () {
     document.getElementById('html').addEventListener('mouseleave', function () {
         html5.classList.add('colored')
     })
-
-
-
-
-}
+})

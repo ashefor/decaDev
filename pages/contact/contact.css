@@ -92,10 +92,6 @@ textarea{
         transform: rotatey(360deg)
     }
 }
-.homesection{
-    /* display: flex */
-    /* height: 100vh; */
-}
 .get_in_touch{
     text-align: center
 }
