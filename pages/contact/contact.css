@@ -389,3 +389,29 @@ footer{
         text-align: center
     }
 }
+@media (max-width:900px){
+    body{
+        margin: 0 auto;
+        padding: 0 1rem;
+    }
+    .contact_header{
+        font-size: 45px;
+    }
+    .contact{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: unset;
+    }
+    .contact_form_container{
+        padding: 2rem;
+    }
+    .social_media{
+        margin-bottom: 4rem;
+    }
+    .contactme{
+        margin-bottom: 4rem;
+    }
+    .footer_details p{
+        text-align: center
+    }
+}

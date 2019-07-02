@@ -283,3 +283,26 @@ footer{
         text-align: center
     }
 }
+@media (max-width: 900px){
+    body{
+        margin: 0 auto;
+        padding: 0 1rem;
+    }
+    .about_me_header{
+        font-size: 45px;
+    }
+    .part_about_imfo{
+        display: block;
+        margin: 0 auto;
+    }
+    .part_abt_img{
+        width: 100%;
+        margin: 2rem auto 4rem;
+    }
+    .about_me_wrapper{
+        width: 100%;
+    }
+    .footer_details p{
+        text-align: center
+    }
+}

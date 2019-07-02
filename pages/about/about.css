@@ -436,3 +436,53 @@ footer{
         text-align: center
     }
 }
+@media (max-width: 900px){
+    body{
+        margin: 0 auto;
+        padding: 0 1rem;
+    }
+    .about_me_header{
+        font-size: 45px;
+    }
+    #experience{
+        padding-bottom: 50px;
+    }
+    .experience_training{
+        display: block;
+    }
+    .education{
+        max-width: 100%;
+        padding: unset;
+    }
+    .work_experience{
+        max-width: 100%;
+        padding: unset;
+    }
+    .both_skills{
+        display: block;
+    }
+    .skills_div{
+        margin: 2rem auto 4rem;
+    }
+    .tech_skills{
+        max-width: 100%;
+        padding: unset;
+    }
+    .person_skills{
+        max-width: 100%;
+        padding: unset;
+    }
+    .techie{
+        grid-gap: unset;
+        padding: unset;
+    }
+    .techie i{
+        font-size: 70px;
+    }
+    .icon_title{
+        visibility: visible
+    }
+    .footer_details p{
+        text-align: center
+    }
+}
