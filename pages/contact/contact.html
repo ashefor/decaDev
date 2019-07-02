@@ -5,14 +5,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Contact - Michael Ashefor</title>
+    <title>Contact - Michael Ashefor - Software Developer</title>
     <link rel="shortcut icon" href="../../assets/fav.ico" type="image/x-icon">
-    <script src="https://kit.fontawesome.com/3cf1bc8abb.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
     <link rel="stylesheet" href="contact.css">
+    <script src="https://kit.fontawesome.com/3cf1bc8abb.js"></script>
+    <script src="./contact.js"></script>
 </head>
 
 <body>
+    <div id="loading">
+        <div id="spinner">
+            <img src="../../assets/CPT..png" alt="" srcset="">
+        </div>
+    </div>
     <div class="homesection">
         <section>
             <div class="homesection_info">
@@ -24,11 +30,14 @@
                             </a>
                         </li>
                     </div>
-                    <div class="nav_menu_other">
-                        <ul>
-                            <li><a href="../about/about.html" class="navlink">About</a></li>
-                            <li><a href="./contact.html" class="navlink active">Contact</a></li>
-                        </ul>
+                    <ul id="linksha" class="nav_menu_other">
+                        <li><a href="../about/about.html" class="navlink">About</a></li>
+                        <li><a href="../contact/contact.html" class="navlink">Contact</a></li>
+                    </ul>
+                    <div class="nav_menu_other menuBtn">
+                        <li>
+                            <span id="openmenu" class="navlink">&#9778;</span>
+                        </li>
                     </div>
                 </nav>
             </div>
@@ -42,7 +51,7 @@
             </div>
             <div class="contact">
                 <div class="animated fadeInUp contact_info">
-                    <div>
+                    <div class="contactme">
                         <h3>
                             Talk to me
                         </h3>
@@ -65,8 +74,10 @@
                             </a>
                         </p>
                         <p>
-                            <i class="fas fa-mobile-alt"></i><span>
-                                08028403095</span>
+                            <a href="tel:+2348028403095">
+                                <i class="fas fa-mobile-alt"></i><span>
+                                    08028403095</span>
+                            </a>
                         </p>
                         <ul>
                             <li>
@@ -93,12 +104,15 @@
                 </div>
                 <div>
                     <div class="animated fadeInUp contact_form_container">
-                        <form class="contact_form" method="POST" action="https://docs.google.com/forms/u/1/d/e/1FAIpQLSdUiV0LH9aO1VWyTov-nxsIpOxktxdc-yK5E4RBszLnQLY3RA/formResponse">
+                        <form class="contact_form" method="POST"
+                            action="https://docs.google.com/forms/u/1/d/e/1FAIpQLSdUiV0LH9aO1VWyTov-nxsIpOxktxdc-yK5E4RBszLnQLY3RA/formResponse">
                             <div>
-                                <input type="text" class="contact_input" placeholder="name" name="entry.1127998610" required>
+                                <input type="text" class="contact_input" placeholder="name" name="entry.1127998610"
+                                    required>
                             </div>
                             <div>
-                                <input type="email" class="contact_input" placeholder="email" name="emailAddress" required>
+                                <input type="email" class="contact_input" placeholder="email" name="emailAddress"
+                                    required>
                             </div>
                             <div>
                                 <textarea name="entry.1988878803" id="" cols="30" rows="10" class="contact_msg"

@@ -5,19 +5,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>About - Michael Ashefor</title>
+    <title>About - Michael Ashefor - Software Developer</title>
     <link rel="shortcut icon" href="../../assets/fav.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
     <link rel="stylesheet"
         href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
     <link rel="stylesheet" href="about.css">
+    <script src="https://kit.fontawesome.com/3cf1bc8abb.js"></script>
     <script src="./about.js"></script>
 </head>
 
 <body>
     <div id="loading">
-        <div id="spinner"> 
-                <img src="../../assets/CPT..png" alt="" srcset="">
+        <div id="spinner">
+            <img src="../../assets/CPT..png" alt="" srcset="">
         </div>
     </div>
     <div class="homesection">
@@ -31,11 +32,14 @@
                             </a>
                         </li>
                     </div>
-                    <div class="nav_menu_other">
-                        <ul>
-                            <li><a href="./about.html" class="navlink active">About</a></li>
-                            <li><a href="../contact/contact.html" class="navlink">Contact</a></li>
-                        </ul>
+                    <ul id="linksha" class="nav_menu_other">
+                        <li><a href="../about/about.html" class="navlink">About</a></li>
+                        <li><a href="../contact/contact.html" class="navlink">Contact</a></li>
+                    </ul>
+                    <div class="nav_menu_other menuBtn">
+                        <li>
+                            <span id="openmenu" class="navlink">&#9778;</span>
+                        </li>
                     </div>
                 </nav>
             </div>
@@ -172,7 +176,7 @@
                     <h2>
                         Technical Skills
                     </h2>
-                    <div>
+                    <div class="skills_div">
                         <div class="techie">
                             <div>
                                 <i id="html" class="devicon-html5-plain colored"></i>

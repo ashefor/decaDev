@@ -58,14 +58,15 @@ textarea{
 }
 .nav_menu_other{
     margin-left: auto;
-}
-.nav_menu_other ul{
     display: flex
 }
 .nav_menu_other li{
     padding: 20px;
     list-style: none;
     margin-left: 2rem;
+}
+.menuBtn{
+    display: none
 }
 .navlink{
     height: 50px;
@@ -106,6 +107,7 @@ textarea{
     color: black
 }
 .rotating img{
+    max-width: unset;
     animation: rotate 2s linear infinite;
     -webkit-animation: rotate 2s linear infinite;
 }
@@ -354,4 +356,83 @@ footer{
 }
 .prof_skills{
     padding: 20px 30px;
+}
+@media (max-width: 767px){
+    body{
+        margin: 0 auto;
+        padding: 0 1rem;
+    }
+    #openmenu{
+        color: unset;
+        border: 1px solid grey;
+    }
+    .menuBtn{
+        display: block
+    }
+    #linksha{
+        display: none;
+        text-align: center;
+        width: 100%;
+        flex-direction: column;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        /* padding: 2rem 2rem 1rem; */
+        background: #ffffff;
+        z-index: 2;
+        border-bottom: 1px solid #c7bfcf;
+    }
+    .navlink{
+        min-width: unset;
+        font-size: 25px;
+        border: unset;
+    }
+    .nav_menu_other li{
+        padding: 20px 0;
+        margin: unset;
+    }
+    .about_me_header{
+        font-size: 45px;
+    }
+    #experience{
+        padding-bottom: 50px;
+    }
+    .experience_training{
+        display: block;
+    }
+    .education{
+        max-width: 100%;
+        padding: unset;
+    }
+    .work_experience{
+        max-width: 100%;
+        padding: unset;
+    }
+    .both_skills{
+        display: block;
+    }
+    .skills_div{
+        margin: 2rem auto 4rem;
+    }
+    .tech_skills{
+        max-width: 100%;
+        padding: unset;
+    }
+    .person_skills{
+        max-width: 100%;
+        padding: unset;
+    }
+    .techie{
+        grid-gap: unset;
+        padding: unset;
+    }
+    .techie i{
+        font-size: 70px;
+    }
+    .icon_title{
+        visibility: visible
+    }
+    .footer_details p{
+        text-align: center
+    }
 }
