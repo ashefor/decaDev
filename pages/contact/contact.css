@@ -235,12 +235,6 @@ img{
     height: 30px;
     line-height: 35px;
     text-align: center;
-    /* font-size: 20px; */
-    /* border-radius: 100%; */
-    /* color: #ffffff; */
-    /* color: #0f0d0d; */
-    /* border: 1px solid red; */
-    /* background-color: #f6483b; */
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     -ms-transition: all 0.3s;
@@ -248,12 +242,12 @@ img{
     transition: all 0.3s
 }
 .twitter, .linkedin{
-    color: #00aced;
-    border: 1px solid #00aced
+    color: #0077b5;
+    border: 1px solid #0077b5
 }
 .twitter:hover, .linkedin:hover{
     color: #ffffff;
-    background-color: #00aced
+    background-color: #0077b5
     /* border: 1px solid #00aced */
 }
 .facebook{
@@ -266,12 +260,15 @@ img{
     /* border: 1px solid #3b5898 */
 }
 .instagram{
-    color: #0f0d0d;
-    border: 1px solid black;
+    color: #f05112;
+    border: 1px solid #f05112;
 }
 .instagram:hover{
     color: #ffffff;
-    background-color: #f6483b;
+    /* background-color: #f6483b; */
+    background: #833ab4;  /* fallback for old browsers */
+    background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); 
+    background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
     border: 1px solid transparent;
 }
 .github{
@@ -280,7 +277,7 @@ img{
 }
 .github:hover{
     color: #ffffff;
-    background-color: #f6483b;
+    background-color: black;
     border: 1px solid transparent;
 }
 footer{

@@ -129,7 +129,7 @@ textarea{
     font-size: 15px;
     height: 2px;
     /* color: red; */
-    background-color: black;
+    /* background-color: black; */
 }
 .part_about_imfo{
     display: grid;
