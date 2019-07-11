@@ -248,6 +248,7 @@ footer{
     }
     .nav_menu{
         position: fixed;
+        left: 5%;
         background-color: white;
         z-index: 99;
     }

@@ -351,6 +351,7 @@ footer{
     }
     .nav_menu{
         position: fixed;
+        left: 5%;
         background-color: white;
         z-index: 99;
     }
@@ -380,6 +381,7 @@ footer{
     }
     .contact_header{
         font-size: 45px;
+        margin-top: 8rem
     }
     .contact{
         display: grid;
