@@ -11,6 +11,7 @@ ul{
 }
 body{
     line-height: 1.5;
+    /* font-family: 'Montserrat Alternates', sans-serif; */
 }
 #loading{
     position:fixed;
@@ -229,10 +230,12 @@ textarea{
 .contact_input::placeholder{
     text-transform: capitalize;
     color: #0f0d0d;
+    font-family: 'Montserrat Alternates', sans-serif;
     /* font-weight: 900 */
 }
 .contact_msg::placeholder{
     color: #0f0d0d;
+    font-family: 'Montserrat Alternates', sans-serif;
 }
 
 img{
@@ -314,6 +317,7 @@ footer{
     max-width: 1100px;
     margin-left: auto;
     margin-right: auto;
+    font-family: 'Montserrat Alternates', sans-serif;
 }
 .footer_details{
     border-top: 1px solid;
