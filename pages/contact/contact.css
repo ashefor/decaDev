@@ -341,6 +341,18 @@ footer{
     color:#fff;
     margin-bottom:10px;
 }
+.msg_sent{
+    display: none;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    background-color: lightgreen;
+    color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+}
 @media (max-width: 767px){
     body{
         margin: 0 auto;
@@ -393,7 +405,7 @@ footer{
         grid-gap: unset;
     }
     .contact_form_container{
-        padding: 2rem;
+        padding: 3rem 2rem;
     }
     .social_media{
         margin-bottom: 4rem;
@@ -419,7 +431,7 @@ footer{
         grid-gap: unset;
     }
     .contact_form_container{
-        padding: 2rem;
+        padding: 3rem 2rem;
     }
     .social_media{
         margin-bottom: 4rem;
